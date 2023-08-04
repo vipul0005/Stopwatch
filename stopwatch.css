@@ -1,0 +1,86 @@
+/* Styling for the entire page */
+body {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+  }
+  
+  /* Styling for the stopwatch container */
+  #stopwatch {
+    width: 300px;
+    height: 400px
+    margin  auto;
+    border: 2px solid black;
+    border-radius: 80px;
+    padding: 1px 4px 0px 4px;
+    background-color: black;
+  }
+  #container{
+    margin: 0;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgb(178, 172, 172);
+  }
+  h1{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+  }
+  #time{
+    margin-top: 30px;
+  }
+  .digit {
+    font-size: 35px;
+    padding: 1px;
+    color: white;
+  }
+  .text {
+    font-size: 16px;
+    padding: 1px;
+    color: white;
+  }
+  
+  /* Styling for elements with class "button" */
+  .button {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.2s;
+  }
+  i{
+    margin-right: 20px;
+  }
+  #start{
+    background-color: green;
+  }
+  #stop{
+    background-color: red;
+  }
+  #reset{
+    background-color: rgb(44, 53, 224);
+  }
+  
+  #start:hover {
+    background-color:darkgreen;
+  }
+  #stop:hover{
+    background-color: darkred;
+  }
+  #reset:hover{
+    background-color: darkblue;
+  }
